@@ -9,8 +9,8 @@ provider:
 
 functions:
   hello-string:
-    handler: string-handler.hello
+    handler: app/string-handler.hello
     name: hello-string
   hello-json:
-    handler: json-handler.hello
+    handler: app/json-handler.hello
     name: hello-json
