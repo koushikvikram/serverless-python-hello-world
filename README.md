@@ -1,2 +1,2 @@
-# serverless-python-hello-world
-Create a "Hello World" Python program using Serverless
+# "Hello World" Python Lamdba Function Using Serverless
+
