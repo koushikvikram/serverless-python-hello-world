@@ -1,0 +1,16 @@
+service: py-hello-world
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: us-west-1
+
+functions:
+  hello-string:
+    handler: string-handler.hello
+    name: hello-string
+  hello-json:
+    handler: json-handler.hello
+    name: hello-json
